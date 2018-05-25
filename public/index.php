@@ -48,7 +48,7 @@
             <h2>Experience</h2>
             <div>
                 <h3>Junior Software Developer</h3>
-                <h4>Barefoot SOlutions - San Diego | Jan 2017 - Present</h4>
+                <h4>Barefoot Solutions - San Diego | Jan 2017 - Present</h4>
                 <ul>
                     <li>Deployed and pushed live production updates to client
                         server environments, including custom Linux
