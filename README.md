@@ -7,7 +7,7 @@
 
 - Enter apache directory: ```cd /etc/apache2/sites-available```
 
-#####Create new conf file: 
+##### Create new conf file: 
 
 Copy and rename default conf file
 
@@ -27,7 +27,7 @@ Enable/add site to apache
 
 ```sudo a2ensite personal-site.conf```
        
-#####Add site to hosts     
+##### Add site to hosts     
 1. ```sudo vim /etc/hosts```
 
 2. Give local IP address
