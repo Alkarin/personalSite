@@ -1,6 +1,9 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
+
+
+
     // Make current tab active
     $( '#navigation a' ).on( 'click', function() {
         $(this).parent().find('a.active').removeClass('active');
@@ -28,6 +31,8 @@ $( document ).ready(function() {
 
     function toggleContent() {
         $(".show-content").removeClass('show-content').addClass('hide-content');
+        // Initiate Scroll
+        $("html, body").delay(1000).animate({scrollTop:$('#main').offset().top - 40}, 2000);
     }
 
 

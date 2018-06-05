@@ -14,6 +14,14 @@
     <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
+  <div id="navigation">
+          <!--<a href="#signin">Sign in</a>-->
+          <!--<a href="#news">About</a>-->
+          <a id="nav-resume" href="#">Resume</a>
+          <a id="nav-contact" href="#">Contact</a>
+          <!--<a href="#news">News</a>-->
+          <a id="nav-home" class="active" href="#">Home</a>
+  </div>
     <div id="cover" class="parallax">
       <div class="caption">
           <p class="greybox">Name</p>
@@ -22,10 +30,4 @@
           <!--<p class="greybox">Software Developer</p>-->
       </div>
     </div>
-    <div id="navigation">
-      <!--<a href="#signin">Sign in</a>-->
-      <a id="nav-resume" href="#">Resume</a>
-      <a id="nav-contact" href="#">Contact</a>
-      <!--<a href="#news">News</a>-->
-      <a id="nav-home" class="active" href="index.php">Home</a>
-    </div>
+
