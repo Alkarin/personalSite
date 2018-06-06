@@ -13,6 +13,5 @@
     <div id="resume" class="hide-content">
         <?php include("resume.php"); ?>
     </div>
-
 </div>
 <?php include("../includes/layouts/footer.php"); ?>

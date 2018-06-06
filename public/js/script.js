@@ -32,7 +32,7 @@ $( document ).ready(function() {
     function toggleContent() {
         $(".show-content").removeClass('show-content').addClass('hide-content');
         // Initiate Scroll
-        $("html, body").delay(1000).animate({scrollTop:$('#main').offset().top - 40}, 2000);
+        $("html, body").delay(1000).animate({scrollTop:$('#main').offset().top - 80}, 2000);
     }
 
 

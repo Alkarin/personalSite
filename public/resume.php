@@ -1,6 +1,5 @@
 <?php ?>
 
-<hr class="no-margin-top">
 <div>
     <h2>Profile</h2>
     <p>An Aspiring Developer, with 2+ years of experience with Web developer, Linux operating systems, and Java Mobile Applications</p>
@@ -49,7 +48,7 @@
             <li>Built fully functioning, responsive and visually pleasing Web
                 pages based on technical docs and design mock-ups for
                 Wordpress, AngularJS and PHP served web pages</li>
-            <li>Completely reworked the company site, <a href="http://bit.ly/2Bwb3fP">check it out!</a></li>
+            <li>Completely reworked the company site, <a href="http://bit.ly/2Bwb3fP" target="_blank">check it out!</a></li>
         </ul>
     </div>
 
