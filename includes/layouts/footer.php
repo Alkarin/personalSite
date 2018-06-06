@@ -1,5 +1,5 @@
-<div id="footer">Copyright <?php echo date("Y"); ?>, Alexander Vaughan</div>
-</body>
+        <div id="footer">Copyright <?php echo date("Y"); ?>, Alexander Vaughan</div>
+    </body>
 </html>
 <?php
 if(isset($connection)){

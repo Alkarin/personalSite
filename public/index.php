@@ -1,6 +1,5 @@
 <?php include("../includes/layouts/header.php"); ?>
 
-
 <div id="main">
     <div id="home" class="show-content">
         <?php include("home.php"); ?>
@@ -14,4 +13,5 @@
         <?php include("resume.php"); ?>
     </div>
 </div>
+
 <?php include("../includes/layouts/footer.php"); ?>

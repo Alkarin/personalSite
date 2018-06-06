@@ -26,8 +26,7 @@
             <li>Linux</li>
             <li>Chrome DevTools</li>
             <li>Apache2</li>
-            <li>Terminal <3</li>
-
+            <li>Terminal &lt;3</li>
         </ul>
     </div>
 </div>
