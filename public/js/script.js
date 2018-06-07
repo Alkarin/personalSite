@@ -7,29 +7,30 @@ $( document ).ready(function() {
         $(this).addClass('active');
     });
 
-    // @TODO Condense these into 1 method, using 'this'
-    $("#nav-resume").on("click", function(){
-        toggleContent();
-        $("#resume").removeClass('hide-content');
-        $("#resume").addClass('show-content');
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top - 55
+        }, 500);
     });
 
-    $("#nav-contact").on("click", function(){
-        toggleContent();
-        $("#contact").removeClass('hide-content');
-        $("#contact").addClass('show-content');
-    });
 
-    $("#nav-home").on("click", function(){
-        toggleContent();
-        $("#home").removeClass('hide-content');
-        $("#home").addClass('show-content');
-    });
+    window.onscroll = function() {fixedHeader()};
 
-    function toggleContent() {
-        $(".show-content").removeClass('show-content').addClass('hide-content');
-        // Initiate Scroll
-        $("html, body").delay(1000).animate({scrollTop:$('#main').offset().top - 80}, 2000);
+    // Get the header
+    var header = document.getElementById("navigation");
+
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
+
+    function fixedHeader() {
+        if (window.pageYOffset >= sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
     }
+
 
 });

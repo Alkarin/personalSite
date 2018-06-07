@@ -106,6 +106,13 @@ MIPS Assembly projects to communicate with the CPU</span></li>
         </ul>
     </div>
 </div>
+
 <div>
     <h2>Download my resume!</h2>
+    <a href="/assets/Alexander_Vaughan-Resume.pdf" download>Download PDF</a>
+    <br>
+    <br>
+    <a href="/assets/Alexander_Vaughan-Resume-Doc.docx" download>Download DOC</a>
+    <br>
+    <h4>Last Updated June 6th, 2018</h4>
 </div>

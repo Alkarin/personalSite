@@ -1,15 +1,43 @@
 /* Site Colors:
-  #1A446C - blue grey
-  #689DC1 - light blue
-  #D4E6F4 - very light blue
-  #EEE4B9 - light tan
-  #8D0D19 - burgundy
+    #1A446C - blue grey
+    #689DC1 - light blue
+    #D4E6F4 - very light blue
+    #EEE4B9 - light tan
+    #8D0D19 - burgundy
 
-  Antique and Clean
-  #B56357 - RUST
-  #B4DBC0 - MINT
-  #EAE3EA - SLATE
-  #A7B3A5 - SEA FOAM
+    Antique and Clean
+    #B56357 - RUST
+    #B4DBC0 - MINT
+    #EAE3EA - SLATE
+    #A7B3A5 - SEA FOAM
+
+    Cool and Fresh
+    #05386B
+    #379683
+    #5CDB95
+    #8EE4AF
+    #EDF5E1
+
+    Close to Nature
+    #687864 - earthy green
+    #31708E - dark blue
+    #5085A5 - medium blue
+    #8FC1E3 - light blue
+    #F7F9FB - white
+
+    Forest Green
+    #4a6741	(74,103,65) - lightest
+    #3f5a36	(63,90,54)
+    #374f2f	(55,79,47)
+    #304529	(48,69,41)
+    #22311d	(34,49,29) - darkest
+
+    *** Green Nature ***
+    #a6b697	(166,182,151)
+    #7a876f	(122,135,111)
+    #88a78e	(136,167,142)
+    #c2cea7	(194,206,167)
+    #88a376	(136,163,118)
 */
 
 html {
@@ -38,12 +66,6 @@ a:hover {
     color: #1A446C;
 }
 
-#cover {
-    opacity: 0.75;
-}
-
-/* header needs to be changed to navigation */
-
 #navigation {
     display: flex;
     justify-content: center;
@@ -53,15 +75,16 @@ a:hover {
     text-align: center;
     overflow: hidden;
     width: 100%;
-    background: #EAE3EA; color: lightslategrey;
-    position: fixed;
+    background: #F7F9FB;
+    color: #88a376;
     z-index: 100;
+    border-bottom: solid 3px #88a376;
 }
 
 #navigation a {
     float: right;
     display: block;
-    color: #A7B3A5;
+    color: #88a376;
     text-align: center;
     padding: 16px 18px;
     text-decoration: none;
@@ -77,13 +100,14 @@ a:hover {
 }
 
 #navigation a:hover {
-    background-color: #fcf5fc;
-    color: lightslategrey;
+    background-color: #88a376;
+    color: #F7F9FB;
+    opacity: .70;
 }
 
 #navigation a.active {
-    background-color: #A7B3A5;
-    color: white;
+    background-color: #88a376;
+    color: #F7F9FB;
 
     transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
@@ -92,21 +116,19 @@ a:hover {
 
 #navigation a.active:hover {
     opacity: .70;
-    color: white;
-}
-
-#header1 h1 {
-    padding: 1em;
-    margin: 0;
+    color: #F7F9FB;
 }
 
 #main {
     height: auto;
-    width: 96%;
+    width: 100%;
     padding: 0;
-    margin: 2%;
-
 }
+
+.section {
+    padding: 100px 2% 100px 2%;
+}
+
 
 #footer {
     clear: both;
@@ -118,46 +140,9 @@ a:hover {
     color: #A7B3A5;
 }
 
-ul.subjects {
-    margin: 1em 0;
-    padding-left: 0;
-    list-style: none;
-}
-
-ul.pages {
-    padding-left: 2em;
-    list-style: square;
-    font-weight: normal;
-}
-.selected {
-    font-weight: bold;
-}
-
-/* Page Content */
-.view-content {
-    margin: 1em;
-    padding: 1em;
-    border: 1px solid #999;
-}
-
-div.message {
-  border: 2px solid #B56357;
-  color: #8D0D19; font-weight: bold;
-  margin: 1em 0; padding: 1em;
-}
-
-/* errors */
-.error {
-  color: #8D0D19; border: 2px solid #B56357;
-  margin: 1em 0; padding: 1em;
-}
-.error ul {
-    padding-left: 2em;
-}
-
-/* Admin table */
-.users {
-    padding-right: 30%;
+/* HEADER */
+#cover {
+    opacity: 0.75;
 }
 
 .parallax {
@@ -193,12 +178,23 @@ div.message {
     letter-spacing: 8px;
     opacity: .90;
 }
+/* END OF HEADER */
 
-.show-content{
-    display: block;
-    background: #ffffff;
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
-.hide-content{
-    display: none;
+#home {
+    background-color: #ffffff;
 }
+
+#contact {
+    background-color: rgba(136, 167, 142, 0.5);
+}
+
+#resume {
+    background-color: #ffffff;
+}
+
