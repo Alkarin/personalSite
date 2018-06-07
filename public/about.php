@@ -20,7 +20,4 @@
     <p>I've always had an interest in Computers since I was a little kid. It always blew my mind how these massively complex machines could run off a simple array of 1's and 0's. I didn't always think I would get into Software Development. When I went to college for the first time I actually went for a Degree in Music Theory and Composition! </p>
     <p>I started as a Software Developer in July, 2016 as an intern at Barefoot Solutions.</p>
 
-    <h2>My Projects</h2>
-
-
 </div>

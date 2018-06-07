@@ -136,8 +136,8 @@ a:hover {
     margin: 0;
     padding: 1em;
     text-align: center;
-    background: #EAE3EA;
-    color: #A7B3A5;
+    background: #F7F9FB;
+    color: #88a376;
 }
 
 /* HEADER */
@@ -186,15 +186,18 @@ a:hover {
     width: 100%
 }
 
-#home {
+.background-white {
     background-color: #ffffff;
 }
 
-#contact {
+.background-alt {
     background-color: rgba(136, 167, 142, 0.5);
 }
 
-#resume {
-    background-color: #ffffff;
+.background-last {
+    background-color: #88a376;
 }
 
+.sticky + #main {
+    padding-top: 60px;
+}

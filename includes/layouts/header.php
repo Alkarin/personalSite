@@ -27,9 +27,10 @@
 
     <div id="navigation">
         <!--<a href="#signin">Sign in</a>-->
-        <!--<a href="#news">About</a>-->
-        <a id="nav-home" class="nav-button active" href="#home">Home</a>
-        <a id="nav-resume" class="nav-button" href="#resume">Resume</a>
-        <a id="nav-contact" class="nav-button" href="#contact">Contact</a>
+        <a class="nav-button active" href="#cover">Home</a>
+        <a class="nav-button" href="#about">About</a>
+        <a class="nav-button" href="#resume">Resume</a>
+        <a class="nav-button" href="#portfolio">Portfolio</a>
+        <a class="nav-button" href="#contact">Contact</a>
         <!--<a href="#news">News</a>-->
     </div>

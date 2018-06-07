@@ -11,7 +11,7 @@ $( document ).ready(function() {
         event.preventDefault();
 
         $('html, body').animate({
-            scrollTop: $($.attr(this, 'href')).offset().top - 55
+            scrollTop: $($.attr(this, 'href')).offset().top - 50
         }, 500);
     });
 
