@@ -15,7 +15,6 @@ $( document ).ready(function() {
         }, 500);
     });
 
-
     window.onscroll = function() {fixedHeader()};
 
     // Get the header
@@ -31,6 +30,4 @@ $( document ).ready(function() {
             header.classList.remove("sticky");
         }
     }
-
-
 });
