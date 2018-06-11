@@ -1,4 +1,7 @@
-        <div id="footer">Copyright <?php echo date("Y"); ?>, Alexander Vaughan</div>
+        <div id="footer">
+            <div>Copyright <?php echo date("Y"); ?>, Alexander Vaughan</div>
+            <a href="privacy.php">Privacy Policy</a>
+        </div>
         <script type="text/javascript" src="/js/css3-animate-it.js"></script>
     </body>
 </html>
