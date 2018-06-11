@@ -13,12 +13,8 @@
         <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/master.css" media="all" title="no title" type="text/css" charset="utf-8">
         <link rel="stylesheet" href="css/animations.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
-
-
     </head>
     <body>
 

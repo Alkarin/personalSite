@@ -16,8 +16,6 @@
     <div id="contact" class="section background-last">
         <?php include("contact.php"); ?>
     </div>
-
-
 </div>
 
 <?php include("../includes/layouts/footer.php"); ?>
