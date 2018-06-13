@@ -127,7 +127,7 @@ a:hover {
 }
 
 .section {
-    padding: 100px 2% 100px 2%;
+    padding: 80px 2% 80px 2%;
 }
 
 
@@ -225,9 +225,91 @@ a:hover {
     padding: 1%;
     width: 150px;
     height: 150px;
-    background: #000;
 }
 
-.flaticon-rocket {
-    content: url('../assets/png/rocket.png');
+.row {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.column {
+    display: inline-flex;
+    width: 50%;
+}
+
+.icon.animated {
+    margin: auto;
+}
+
+.icon {
+    width: 140px;
+    height: 140px;
+}
+
+.icon-title {
+    padding-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1A446C;
+}
+
+.title {
+    font-size: 26px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+#skills {
+    width: 80%;
+    margin: auto;
+}
+
+.skill-section {
+    display: inline-flex;
+    width: 100%;
+}
+
+.skill-label {
+    width: 10%;
+    background: blue;
+    height: 15px;
+}
+
+.skill-bar {
+    width: 90%;
+}
+
+/* ICONS */
+.flaticon-magic {
+    content: url('../assets/png/design-tools/048-magic-wand.png');
+}
+
+.flaticon-search {
+    content: url('../assets/png/design-tools/011-search-1.png');
+}
+
+.flaticon-react {
+    content: url('../assets/png/design-tools/008-screen-1.png');
+}
+
+.flaticon-idea {
+    content: url('../assets/png/design-tools/037-idea.png');
+}
+
+.flaticon-gmail {
+    content: url('../assets/png/social/gmail.png');
+}
+
+.flaticon-linkedin {
+    content: url('../assets/png/social/linkedin.png');
+}
+
+.flaticon-github {
+    content: url('../assets/png/social/github-logo.png');
 }

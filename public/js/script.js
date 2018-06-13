@@ -53,4 +53,17 @@ $( document ).ready(function() {
     function setUrlParam() {
         window.location.href = $.attr(this, 'href');
     }
+
+
+    var Line = new ProgressBar.Line('#bar-css', {
+        color: '#FCB03C',
+        trailColor: '#f4f4f4',
+        strokeWidth: 1,
+        trailWidth: 1,
+        duration: 2000,
+        easing: 'easeInOut',
+    });
+
+    Line.animate(.5);
+
 });
